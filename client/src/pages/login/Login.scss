@@ -1,0 +1,39 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login-box{
+        padding: 40px;
+        border: 1px solid black;
+        min-width: 300px;
+        border-radius: 4px;
+    }
+
+    label, input{
+        display: block;
+        width: 100%;
+    }
+    input{
+        padding: 8px 16px;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+
+    .submit{
+        background-color: #29b4ff;
+        color: white;
+        border: none;
+        margin-top: 16px;
+    }
+    
+    .sumbit:hover{
+        background-color: #249dde;
+    }
+
+    .subheading{
+        margin-top: 16px;
+    }
+
+}
